@@ -1,0 +1,44 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 2,
+	"settings": {
+		"appearanceTools": true,
+		"layout": {
+			"contentSize": "820px",
+			"wideSize": "1240px"
+		},
+		"color": {
+			"palette": [
+				{ "slug": "dp-red", "color": "#e8312a", "name": "Doodle Red" },
+				{ "slug": "dp-orange", "color": "#f7941d", "name": "Doodle Orange" },
+				{ "slug": "dp-yellow", "color": "#ffc20e", "name": "Doodle Yellow" },
+				{ "slug": "dp-green", "color": "#58b947", "name": "Doodle Green" },
+				{ "slug": "dp-blue", "color": "#1ca9e0", "name": "Doodle Blue" },
+				{ "slug": "dp-purple", "color": "#8e44ad", "name": "Doodle Purple" },
+				{ "slug": "dp-ink", "color": "#1a2238", "name": "Doodle Ink" },
+				{ "slug": "dp-cream", "color": "#fbf6ec", "name": "Doodle Cream" }
+			],
+			"gradients": [
+				{
+					"slug": "dp-rainbow",
+					"name": "Doodle Rainbow",
+					"gradient": "linear-gradient(90deg, #e8312a, #f7941d, #ffc20e, #58b947, #1ca9e0, #8e44ad)"
+				}
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "'Baloo 2', system-ui, sans-serif",
+					"slug": "dp-head",
+					"name": "Baloo 2"
+				},
+				{
+					"fontFamily": "'Poppins', system-ui, sans-serif",
+					"slug": "dp-body",
+					"name": "Poppins"
+				}
+			]
+		}
+	}
+}

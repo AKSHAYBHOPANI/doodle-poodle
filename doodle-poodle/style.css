@@ -1,0 +1,59 @@
+/*
+Theme Name: Doodle Poodle
+Theme URI: https://doodlepoodle.in/
+Author: Vishvakrit
+Author URI: https://doodlepoodle.in/
+Description: A playful, colourful WooCommerce-ready theme for Doodle Poodle - India's first Made-in-India hand-crafted creative play figurine & collectible brand. Features a customizable home page with hero, collections, product grids, store availability, testimonials and Instagram sections inspired by modern creative play figurine stores. Built for WooCommerce.
+Version: 1.0.11
+Requires at least: 6.0
+Tested up to: 6.6
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: doodle-poodle
+Tags: e-commerce, woocommerce, custom-colors, custom-logo, custom-menu, featured-images, full-width-template, theme-options, translation-ready, kids, creative play figurines
+WC requires at least: 6.0
+WC tested up to: 9.0
+*/
+
+/* =========================================================
+   DOODLE POODLE - DESIGN TOKENS
+   Brand palette derived from the rainbow logo
+   ========================================================= */
+:root {
+  /* Brand rainbow */
+  --dp-red:    #e8312a;
+  --dp-orange: #f7941d;
+  --dp-yellow: #ffc20e;
+  --dp-green:  #58b947;
+  --dp-blue:   #1ca9e0;
+  --dp-purple: #8e44ad;
+  --dp-pink:   #ec4899;
+
+  /* Neutrals */
+  --dp-ink:    #1a2238; /* dark navy outline from logo */
+  --dp-text:   #2c3145;
+  --dp-muted:  #6b7280;
+  --dp-cream:  #fbf6ec; /* warm background used in product banners */
+  --dp-paper:  #ffffff;
+  --dp-line:   #ece6da;
+
+  /* Roles */
+  --dp-primary:   var(--dp-blue);
+  --dp-secondary: var(--dp-red);
+  --dp-accent:    var(--dp-yellow);
+
+  /* Effects */
+  --dp-radius:    18px;
+  --dp-radius-sm: 12px;
+  --dp-radius-lg: 28px;
+  --dp-shadow:    0 18px 40px -18px rgba(26, 34, 56, .35);
+  --dp-shadow-sm: 0 8px 22px -12px rgba(26, 34, 56, .35);
+  --dp-maxw:      1240px;
+
+  --dp-font-head: 'Baloo 2', 'Poppins', system-ui, sans-serif;
+  --dp-font-body: 'Poppins', system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+/* The full stylesheet is loaded from assets/css/theme.css for clarity.
+   This file is required by WordPress for the theme header above. */
