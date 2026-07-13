@@ -9,7 +9,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'DOODLE_POODLE_VERSION', '1.0.11' );
+define( 'DOODLE_POODLE_VERSION', '1.0.14' );
 define( 'DOODLE_POODLE_DIR', get_template_directory() );
 define( 'DOODLE_POODLE_URI', get_template_directory_uri() );
 

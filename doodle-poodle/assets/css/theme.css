@@ -268,7 +268,6 @@ p { margin: 0 0 1rem; }
     ),
     url("../images/products-animal-kingdom.jpg");
   background-size: cover;
-  background-position: center bottom;
   background-repeat: no-repeat;
 }
 .dp-products::before {
@@ -570,6 +569,107 @@ p { margin: 0 0 1rem; }
    ========================================================= */
 .dp-shop-wrap { padding: 40px 0 64px; }
 .woocommerce .dp-container { max-width: var(--dp-maxw); }
+
+/* ---------- Product category backgrounds (kingdoms) ---------- */
+body.tax-product_cat .dp-shop-wrap {
+  position: relative;
+}
+body.term-jungle-kingdom .dp-shop-wrap,
+body.term-farm-kingdom .dp-shop-wrap,
+body.term-dino-kingdom .dp-shop-wrap,
+body.term-pet-kingdom .dp-shop-wrap,
+body.term-sea-kingdom .dp-shop-wrap {
+  overflow: hidden;
+  background-color: #e8f6ea;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image:
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, .58) 0%,
+      rgba(255, 252, 245, .42) 40%,
+      rgba(255, 255, 255, .52) 100%
+    );
+}
+body.term-jungle-kingdom .dp-shop-wrap {
+  background-image:
+    linear-gradient(180deg, rgba(255, 255, 255, .58) 0%, rgba(255, 252, 245, .42) 40%, rgba(255, 255, 255, .52) 100%),
+    url("../images/category-jungle-kingdom.jpg");
+}
+body.term-farm-kingdom .dp-shop-wrap {
+  background-image:
+    linear-gradient(180deg, rgba(255, 255, 255, .58) 0%, rgba(255, 252, 245, .42) 40%, rgba(255, 255, 255, .52) 100%),
+    url("../images/category-farm-kingdom.jpg");
+}
+body.term-dino-kingdom .dp-shop-wrap {
+  background-image:
+    linear-gradient(180deg, rgba(255, 255, 255, .58) 0%, rgba(255, 252, 245, .42) 40%, rgba(255, 255, 255, .52) 100%),
+    url("../images/category-dino-kingdom.jpg");
+}
+body.term-pet-kingdom .dp-shop-wrap {
+  background-image:
+    linear-gradient(180deg, rgba(255, 255, 255, .58) 0%, rgba(255, 252, 245, .42) 40%, rgba(255, 255, 255, .52) 100%),
+    url("../images/category-pet-kingdom.jpg");
+}
+body.term-sea-kingdom .dp-shop-wrap {
+  background-image:
+    linear-gradient(180deg, rgba(255, 255, 255, .58) 0%, rgba(255, 252, 245, .42) 40%, rgba(255, 255, 255, .52) 100%),
+    url("../images/category-sea-kingdom.jpg");
+}
+body.term-jungle-kingdom .woocommerce-products-header,
+body.term-farm-kingdom .woocommerce-products-header,
+body.term-dino-kingdom .woocommerce-products-header,
+body.term-pet-kingdom .woocommerce-products-header,
+body.term-sea-kingdom .woocommerce-products-header {
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto 28px;
+  padding: 18px 20px 8px;
+  border-radius: var(--dp-radius);
+  background: rgba(255, 255, 255, .78);
+  backdrop-filter: blur(6px);
+  box-shadow: var(--dp-shadow-sm);
+}
+body.term-jungle-kingdom .woocommerce-products-header .woocommerce-products-header__title,
+body.term-jungle-kingdom .woocommerce-products-header h1,
+body.term-farm-kingdom .woocommerce-products-header .woocommerce-products-header__title,
+body.term-farm-kingdom .woocommerce-products-header h1,
+body.term-dino-kingdom .woocommerce-products-header .woocommerce-products-header__title,
+body.term-dino-kingdom .woocommerce-products-header h1,
+body.term-pet-kingdom .woocommerce-products-header .woocommerce-products-header__title,
+body.term-pet-kingdom .woocommerce-products-header h1,
+body.term-sea-kingdom .woocommerce-products-header .woocommerce-products-header__title,
+body.term-sea-kingdom .woocommerce-products-header h1 {
+  margin: 0 0 .4rem;
+  font-family: var(--dp-font-head);
+  color: var(--dp-ink);
+}
+body.term-jungle-kingdom .woocommerce-products-header .term-description,
+body.term-farm-kingdom .woocommerce-products-header .term-description,
+body.term-dino-kingdom .woocommerce-products-header .term-description,
+body.term-pet-kingdom .woocommerce-products-header .term-description,
+body.term-sea-kingdom .woocommerce-products-header .term-description {
+  color: var(--dp-muted);
+  margin: 0;
+}
+body.term-jungle-kingdom .woocommerce-breadcrumb,
+body.term-farm-kingdom .woocommerce-breadcrumb,
+body.term-dino-kingdom .woocommerce-breadcrumb,
+body.term-pet-kingdom .woocommerce-breadcrumb,
+body.term-sea-kingdom .woocommerce-breadcrumb {
+  background: rgba(255, 255, 255, .8);
+  display: inline-block;
+  padding: .45rem .9rem;
+  border-radius: 999px;
+  box-shadow: var(--dp-shadow-sm);
+}
+body.term-jungle-kingdom ul.products li.product,
+body.term-farm-kingdom ul.products li.product,
+body.term-dino-kingdom ul.products li.product,
+body.term-pet-kingdom ul.products li.product,
+body.term-sea-kingdom ul.products li.product {
+  background: rgba(255, 255, 255, .94) !important;
+}
 
 .woocommerce ul.products,
 .woocommerce-page ul.products,
